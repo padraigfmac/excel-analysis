@@ -1,0 +1,6 @@
+Precedent;Dependent
+[test.xlsm]Sheet1!$C$1;[test.xlsm]Sheet1!$C$2
+[test.xlsm]Sheet1!$A$2;[test.xlsm]Sheet1!$A$1
+[test.xlsm]Sheet1!$B$2;[test.xlsm]Sheet1!$A$2
+[test.xlsm]Sheet1!$A$3;[test.xlsm]Sheet1!$B$3
+[test.xlsm]Sheet1!$B$3;[test.xlsm]Sheet1!$A$1
