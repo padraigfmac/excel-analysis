@@ -1,5 +1,5 @@
 WorkbookWorkSheet;Address;Has_Formula;Value;Formula
-[test.xlsm]Sheet1;[test.xlsm]Sheet1!$A$1;TRUE;Hello World;"=A2 & "" "" & B3"
+[test.xlsm]Sheet1;[test.xlsm]Sheet1!$A$1;TRUE;Hello World;=A2 & "" "" & B3
 [test.xlsm]Sheet1;[test.xlsm]Sheet1!$B$1;TRUE;12;=SUM(D1:D3)
 [test.xlsm]Sheet1;[test.xlsm]Sheet1!$C$1;FALSE;8;8
 [test.xlsm]Sheet1;[test.xlsm]Sheet1!$D$1;FALSE;1;1
