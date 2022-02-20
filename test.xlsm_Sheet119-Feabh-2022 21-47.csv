@@ -1,0 +1,19 @@
+"Workbook","WorkSheet","Row","Column","Address","Has_Formula","Value","Formula","Number_Format","In_WorkSheet_Precedents","Precedents_Count","In_WorkSheet_Dependents","Dependents_Count"
+"test.xlsm","Sheet1","1","1","[test.xlsm]Sheet1!$A$1","True","Hello World","=A2 & " " & B3","General","$A$2,$B$3","2",,
+"test.xlsm","Sheet1","1","2","[test.xlsm]Sheet1!$B$1","True","12","=SUM(D1:D3)","General","$D$1:$D$3","3","$E$2","1"
+"test.xlsm","Sheet1","1","3","[test.xlsm]Sheet1!$C$1","False","8","8","General",,,"$C$2,$E$2","2"
+"test.xlsm","Sheet1","1","4","[test.xlsm]Sheet1!$D$1","False","1","1","General",,,"$B$1","1"
+"test.xlsm","Sheet1","1","5","[test.xlsm]Sheet1!$E$1","True","3","=3*1","General",,,,
+"test.xlsm","Sheet1","1","6","[test.xlsm]Sheet1!$F$1","False","23/05/2022","44704","m/d/yyyy",,,,
+"test.xlsm","Sheet1","2","1","[test.xlsm]Sheet1!$A$2","True","Hello","=B2","General","$B$2","1","$A$1","1"
+"test.xlsm","Sheet1","2","2","[test.xlsm]Sheet1!$B$2","False","Hello","Hello","General",,,"$A$2","1"
+"test.xlsm","Sheet1","2","3","[test.xlsm]Sheet1!$C$2","True","8","=C1","General","$C$1","1",,
+"test.xlsm","Sheet1","2","4","[test.xlsm]Sheet1!$D$2","False","4","4","General",,,"$B$1","1"
+"test.xlsm","Sheet1","2","5","[test.xlsm]Sheet1!$E$2","True","20","=B1+C1","General","$B$1:$C$1","2",,
+"test.xlsm","Sheet1","2","6","[test.xlsm]Sheet1!$F$2","False","","","General",,,,
+"test.xlsm","Sheet1","3","1","[test.xlsm]Sheet1!$A$3","False","World","World","General",,,"$B$3","1"
+"test.xlsm","Sheet1","3","2","[test.xlsm]Sheet1!$B$3","True","World","=A3","General","$A$3","1","$A$1","1"
+"test.xlsm","Sheet1","3","3","[test.xlsm]Sheet1!$C$3","False","2","2","0%",,,,
+"test.xlsm","Sheet1","3","4","[test.xlsm]Sheet1!$D$3","False","7","7","0",,,"$B$1","1"
+"test.xlsm","Sheet1","3","5","[test.xlsm]Sheet1!$E$3","True","105","=Sheet2!A15","General",,,,
+"test.xlsm","Sheet1","3","6","[test.xlsm]Sheet1!$F$3","False","","","General",,,,
